@@ -1,3 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">YoutubeMusic</string>
+    <string name="app_name">Youtube Music</string>
+    <string name="ab_trending">Trending Videos</string>
+    <string name="ab_search">Search</string>
+    <string name="hint_search">Search Youtube…</string>
+    <string name="text_home">Home</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_languages">Languages</string>
+    <string name="text_PlayBackground">Play Background</string>
+    <string name="view_count_k">K views</string>
+    <string name="view_count">views</string>
+    <string name="view_count_m">"M views "</string>
+    <string name="view_count_b">"B view "</string>
+    <string name="year_ago">year ago</string>
+    <string name="mon_ago">mon ago</string>
+    <string name="day_ago">day ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="text_EN">English</string>
+    <string name="txt_policy">Policy</string>
+    <string name="txt_notification"> Get Notifications in morning </string>
+    <string name="text_share">Share</string>
+    <string name="text_download">Download</string>
+    <string name="txt_comment">Comment</string>
+    <string name="text_up_next">Up next</string>
+    <string name="no_cmt">There are no comments yet</string>
+    <string name="text_trending">Trending</string>
+    <string name="text_recent">Recent</string>
+    <string name="text_VN">Vietnamese</string>
+    <string name="active_play">Successfully enabled background running</string>
+    <string name="play_on">On</string>
+    <string name="play_off">Off</string>
+    <string name="please_wait">Please wait....</string>
+    <string name="error_403">Can\'t get video from server</string>
+    <string name="off_cmt">Comments are off</string>
+    <string name="disconnect_internet">You have no network connection.Please check again</string>
+    <string name="no_connected">No Connected</string>
+    <string name="go_back_live">Go back live</string>
+    <string name="no_video">Not found</string>
+    <string name="text_notifi">Youtube music good morning to you</string>
+    <string name="title_notifi">Welecome</string>
+    <string name="check_network">Check network!</string>
 </resources>
