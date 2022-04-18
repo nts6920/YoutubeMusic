@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-2</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowColor">@color/shadow</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="Custom" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="titleTextAppearance">@font/roboto_light</item>
+        <item name="android:background">@color/text_channel</item>
+    </style>
+</resources>

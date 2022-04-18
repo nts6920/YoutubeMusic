@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <com.nts.youtubemusic.ui.custom.CustomViewShadow
+            android:id="@+id/view"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:shadowColor="@color/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:shadowColor="@color/shadow"
+            android:id="@+id/txt_title_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/icon"
+            android:textSize="@dimen/text_18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

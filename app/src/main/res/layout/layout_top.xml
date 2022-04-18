@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/frameTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin12dp"
+        android:layout_marginTop="@dimen/margin15dp"
+        android:layout_marginBottom="@dimen/margin15dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ic_19dp"
+            android:layout_marginBottom="6dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14sp" />
+
+        <TextView
+            android:id="@+id/tvChannel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/text_channel"
+            android:textSize="@dimen/text_10sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="@dimen/img_37dp"
+        android:layout_height="@dimen/img_37dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@drawable/ic_play"
+        android:visibility="gone"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/ivPause"
+        android:layout_width="@dimen/img_37dp"
+        android:layout_height="@dimen/img_37dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@drawable/ic_pause"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="@dimen/img_37dp"
+        android:layout_height="@dimen/img_37dp"
+        android:layout_marginStart="@dimen/padding16dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@drawable/ic_close"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+</LinearLayout>

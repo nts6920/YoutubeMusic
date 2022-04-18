@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_cmt"
+            android:layout_width="@dimen/img22dp"
+            android:layout_height="@dimen/img22dp"
+            android:layout_marginStart="@dimen/margin16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/txt_cmt" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_cmt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin16dp"
+            android:layout_marginEnd="@dimen/margin16dp"
+            android:layout_marginBottom="@dimen/margin16dp"
+            android:textSize="@dimen/text_12sp"
+            android:textColor="@color/black"
+            app:fontFamily="@font/roboto_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_cmt"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

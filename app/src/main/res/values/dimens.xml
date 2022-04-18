@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //padding
+    <dimen name="padding8dp">8dp</dimen>
+    <dimen name="padding27dp">27dp</dimen>
+    <dimen name="padding16dp">16dp</dimen>
+    <dimen name="padding18dp">18dp</dimen>
+    <dimen name="padding20dp">20dp</dimen>
+    //margin
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin16dp">16dp</dimen>
+    <dimen name="margin4dp">4dp</dimen>
+    <dimen name="margin25dp">25dp</dimen>
+    <dimen name="margin13dp">13dp</dimen>
+    <dimen name="margin12dp">12dp</dimen>
+    <dimen name="margin2dp">2dp</dimen>
+    <dimen name="margin24dp">24dp</dimen>
+    <dimen name="margin58dp">58dp</dimen>
+    <dimen name="margin9dp">9dp</dimen>
+    <dimen name="margin18dp">18dp</dimen>
+    <dimen name="margin20dp">20dp</dimen>
+    <dimen name="margin15dp">15dp</dimen>
+    <dimen name="margin32dp">32dp</dimen>
+    <dimen name="margin10dp">10dp</dimen>
+    //bottom navigation
+    <dimen name="bottom_navigation_icon_size" tools:override="true">32dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">68dp</dimen>
+    //text
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_10sp">10sp</dimen>
+    //img
+    <dimen name="view_339dp">339dp</dimen>
+    <dimen name="view_42dp">42dp</dimen>
+    <dimen name="video_273dp">273dp</dimen>
+    <dimen name="video_40dp">40dp</dimen>
+    //img channel
+    <dimen name="channel_28dp">28dp</dimen>
+    <dimen name="videoTimeW">46dp</dimen>
+    <dimen name="videoTimeH">16dp</dimen>
+    <dimen name="img_157dp">157dp</dimen>
+    <dimen name="img_121dp">121dp</dimen>
+    <dimen name="img_92dp">92dp</dimen>
+    <dimen name="viewSetting_335dp">335dp</dimen>
+    <dimen name="viewSetting_38dp">38dp</dimen>
+    <dimen name="icon_73dp">73dp</dimen>
+    <dimen name="img22dp">22dp</dimen>
+    <dimen name="img20dp">20dp</dimen>
+    <dimen name="img_37dp">37dp</dimen>
+    <dimen name="ic_17dp">17dp</dimen>
+    <dimen name="ic_19dp">19dp</dimen>
+    <dimen name="icon_32dp">32dp</dimen>
+    <dimen name="img216dp">216dp</dimen>
+
+</resources>

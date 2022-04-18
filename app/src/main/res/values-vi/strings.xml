@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Youtube Music</string>
+    <string name="ab_trending"> Video Thịnh Hành </string>
+    <string name="ab_search">Tìm Kiếm</string>
+    <string name="hint_search">Tìm Kiếm Youtube…</string>
+    <string name="text_home">Trang Chủ</string>
+    <string name="text_setting">Cài Đặt</string>
+    <string name="text_languages">Ngôn Ngữ</string>
+    <string name="text_PlayBackground">Chạy dưới nền</string>
+    <string name="text_EN">English</string>
+    <string name="txt_policy">Bảo mật</string>
+    <string name="txt_notification">Nhận thông báo vào buổi sáng</string>
+    <string name="text_share">Chia sẻ</string>
+    <string name="text_download">Tải về</string>
+    <string name="txt_comment">Bình luận </string>
+    <string name="text_up_next">Các video khác</string>
+    <string name="no_cmt">Không có bình luận nào </string>
+    <string name="view_count_k">N lượt xem</string>
+    <string name="view_count_m">"Tr lượt xem "</string>
+    <string name="view_count_b">"T lượt xem "</string>
+    <string name="year_ago">năm trước</string>
+    <string name="mon_ago">tháng trước</string>
+    <string name="day_ago">ngày trước</string>
+    <string name="hour_ago">giờ trước</string>
+    <string name="minute_ago">phút trước</string>
+    <string name="text_trending">Thịnh Hành</string>
+    <string name="text_recent">Lịch sử</string>
+    <string name="text_VN">Tiếng Việt</string>
+    <string name="active_play">Đã kích hoạt thành công chạy nền</string>
+    <string name="play_on">Bật</string>
+    <string name="play_off">Tắt</string>
+    <string name="view_count">lượt xem </string>
+    <string name="please_wait">Vui lòng đợi....</string>
+    <string name="error_403">Không thể lấy video từ máy chủ </string>
+    <string name="off_cmt">Bình luận đã tắt</string>
+    <string name="disconnect_internet">Bạn không có kết nối mạng .Vui lòng kiểm tra lại</string>
+    <string name="no_connected">Không có kết nối</string>
+    <string name="go_back_live">Quay lại trực tiếp</string>
+    <string name="no_video">Không tìm thấy kết quả</string>
+    <string name="text_notifi">Youtube music chúc bạn buổi sáng tốt lành</string>
+    <string name="title_notifi">Xin chào</string>
+    <string name="check_network">Kiểm tra lại mạng!</string>
+</resources>
